@@ -14,11 +14,11 @@ body {
 }
 
 .extend-carousel{
-	height:500px;
+	/*height:500px;*/
 	background-color:#666;
 }
 .extend-carousel .item{
-	height:500px;
+	/*height:500px;*/
 	background-color:#666;
 }
 .extend-carousel img{
