@@ -5,11 +5,22 @@ body {
   padding-bottom: 30px;
 }
 
-.scroll-bar{
-	width: 500px;
+.extend-scroll-bar{
 	height: 300px;
-	margin: 10px auto;
-	padding-right: 12px;
+	margin: 0px 7px 15px 15px;
+	padding: 0px 8px 0px 0px;
 	overflow: hidden;
 	position: relative;
+}
+
+.extend-carousel{
+	height:500px;
+	background-color:#666;
+}
+.extend-carousel .item{
+	height:500px;
+	background-color:#666;
+}
+.extend-carousel img{
+	width:100%;
 }
