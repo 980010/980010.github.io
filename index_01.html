@@ -10,7 +10,7 @@
 <meta name="description" content="980010 学习 980010">
 <link rel="icon" href="./favicon.ico">
 <!-- Bootstrap -->
-<link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.css" rel="stylesheet">
+<link href="./dist/css/bootstrap.css" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,7 +18,31 @@
   <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<link href="./style/style.css" rel="stylesheet">
+<style type="text/css">
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.extend-scroll-bar{
+	height: 300px;
+	margin: 0px 7px 15px 15px;
+	padding: 0px 8px 0px 0px;
+	overflow: hidden;
+	position: relative;
+}
+.extend-carousel{
+	/*height:500px;*/
+	background-color:#666;
+	margin-bottom:15px;
+}
+.extend-carousel .item{
+	/*height:500px;*/
+	background-color:#666;
+}
+.extend-carousel img{
+	width:100%;
+}
+</style>
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -66,11 +90,9 @@
   </div>
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.js"></script> 
-<!-- Nicescroll is a jquery plugin, for nice customizabled scrollbars with a very similar ios/mobile style. It supports DIVs, IFrames and document page (body) scrollbars. Compatible with Firefox 4+, Chrome 5+, Safari 4+ (win/mac), Opera 10+, IE 6+ (all A-grade browsers). Compatible with iOS devices as iPad, Android, Blackberry, Windows Phone, and many many mobile and touch devices. --> 
-<script src="http://cdn.bootcss.com/nicescroll/3.6.0/jquery.nicescroll.js"></script>
 </body>
 </html>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="./jquery/jquery-1.11.1.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./dist/js/bootstrap.js"></script>

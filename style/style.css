@@ -1,26 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-  padding-top: 70px;
+  padding-top: 51px;
   padding-bottom: 30px;
-}
-
-.extend-scroll-bar{
-	height: 300px;
-	margin: 0px 7px 15px 15px;
-	padding: 0px 8px 0px 0px;
-	overflow: hidden;
-	position: relative;
-}
-
-.extend-carousel{
-	/*height:500px;*/
-	background-color:#666;
-}
-.extend-carousel .item{
-	/*height:500px;*/
-	background-color:#666;
-}
-.extend-carousel img{
-	width:100%;
 }
