@@ -66,61 +66,37 @@
 
 <div class="container">
   <div class="row">
+    <div class="col-md-12">
+      <ul class="list-inline well" >
+        <li>320x480</li>
+        <li>360x640</li>
+        <li>768x1024</li>
+        <li>800x1280</li>
+        <li>980x1280</li>
+        <li>1280x600</li>
+        <li>1920x900</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <ul id="myTab" class="nav nav-tabs">
+        <li class="active"> <a href="#home" data-toggle="tab"> 效果图 </a> </li>
+        <li><a href="#jianjie" data-toggle="tab"> 简介 </a></li>
+        <li><a href="#jiekou" data-toggle="tab"> 接口 </a></li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
     <div class="col-sm-6 col-md-4">
-      <div class="thumbnail"> <img src="./images/1920X1200/267f9e2f07082838bc039d19ba99a9014c08f1b5.jpg" alt="...">
-        <div class="caption">
-          <h3>Thumbnail label</h3>
-        </div>
-      </div>
+      <div class="extend-scroll-bar extend-scroll-bar-left"> <img src="./images/app/017da1553489dc00000064a65af063.jpg" class="img-responsive" alt="Responsive image"></div>
     </div>
     <div class="col-sm-6 col-md-4">
-      <div class="thumbnail"> <a href="./projectAbout.html"><img src="./images/1920X1200/342ac65c1038534317b6c62c9113b07eca808846.jpg" alt="..."></a>
-        <div class="caption">
-          <h3><a href="./projectAbout.html">Thumbnail label</a></h3>
-        </div>
-      </div>
+      <div class="extend-scroll-bar extend-scroll-bar-left"> <img src="./images/app/01a5b35543bdd60000005b03dd1992.jpg" class="img-responsive" alt="Responsive image"></div>
     </div>
     <div class="col-sm-6 col-md-4">
-      <div class="thumbnail"> <img src="./images/1920X1200/728da9773912b31b9a3e244c8518367adab4e101.jpg" alt="...">
-        <div class="caption">
-          <h3>Thumbnail label</h3>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail"> <img src="./images/1920X1200/962bd40735fae6cdc6e5ba6b0db30f2442a70f62.jpg" alt="...">
-        <div class="caption">
-          <h3>Thumbnail label</h3>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail"> <img src="./images/1920X1200/48540923dd54564e9b104938b1de9c82d1584fbd.jpg" alt="...">
-        <div class="caption">
-          <h3>Thumbnail label</h3>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail"> <img src="./images/1920X1200/e4dde71190ef76c6b2f7ba269f16fdfaaf516791.jpg" alt="...">
-        <div class="caption">
-          <h3>Thumbnail label</h3>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail"> <img src="./images/1920X1200/f11f3a292df5e0fe1dd3af485d6034a85fdf72ab.jpg" alt="...">
-        <div class="caption">
-          <h3>Thumbnail label</h3>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail"> <img src="./images/1920X1200/fc1f4134970a304ea85eb2f0d3c8a786c9175cbf.jpg" alt="...">
-        <div class="caption">
-          <h3>Thumbnail label</h3>
-        </div>
-      </div>
+      <div class="extend-scroll-bar extend-scroll-bar-left"> <img src="./images/app/m_4379539007e70000015ec7583d24.jpg" class="img-responsive" alt="Responsive image"></div>
     </div>
   </div>
 </div>
@@ -131,3 +107,11 @@
 <script src="./jquery/jquery-1.11.1.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="./dist/js/bootstrap.js"></script>
+<!-- Nicescroll is a jquery plugin, for nice customizabled scrollbars with a very similar ios/mobile style. It supports DIVs, IFrames and document page (body) scrollbars. Compatible with Firefox 4+, Chrome 5+, Safari 4+ (win/mac), Opera 10+, IE 6+ (all A-grade browsers). Compatible with iOS devices as iPad, Android, Blackberry, Windows Phone, and many many mobile and touch devices. -->
+<script src="http://cdn.bootcss.com/nicescroll/3.6.0/jquery.nicescroll.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {  
+        $(".extend-scroll-bar-left").niceScroll();
+		$(".extend-scroll-bar-right").niceScroll();
+    });
+</script>
